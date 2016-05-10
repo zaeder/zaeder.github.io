@@ -119,10 +119,6 @@ div#infos section#main_content article{
     -webkit-box-sizing: border-box;
 }
 
-div#infos section#main_content article:not(#single):nth-child(2n+1){
-    margin-right: 0;
-}
-
 div#infos section#main_content article#single{
     margin-right: 0;
     width: 100%;

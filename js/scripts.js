@@ -8,6 +8,7 @@ var init = function(){
             } else {
                 jQuery(articles[loop]).height(jQuery(articles[loop+1]).height());
             }
+            jQuery(articles[loop+1]).css('margin-right','0');
         }
     }
     
