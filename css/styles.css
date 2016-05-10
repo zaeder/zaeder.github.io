@@ -119,7 +119,7 @@ div#infos section#main_content article{
     -webkit-box-sizing: border-box;
 }
 
-div#infos section#main_content article:nth-child(2n){
+div#infos section#main_content article:not(#single):nth-child(2n+1){
     margin-right: 0;
 }
 
